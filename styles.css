@@ -9,9 +9,9 @@ body {
 
 header {
   background-color: #2B2B2B;
-  padding: 1rem 2rem 1rem 2rem;
   display: flex;
   justify-content: space-between;
+  padding: 1rem 2rem 1rem 2rem;
 }
 
 nav {
@@ -20,18 +20,18 @@ nav {
 }
 
 li {
-  margin: 1rem;
   display: inline;
+  margin: 1rem;
 }
 
 a {
   background-color: transparent;
   border: 0;
   color: #FFFFFF;
-  opacity: .5;
   font-size: 1rem;
-  text-transform: uppercase;
+  opacity: .5;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 a:hover { 
@@ -44,8 +44,8 @@ a:hover {
 
 }
 .menu--a--admin-username {
-  margin: 0 5rem 0 0;
   color: #28B1FF;
+  margin: 0 5rem 0 0;
   text-transform: capitalize;
 }
 
@@ -68,10 +68,10 @@ article {
 }
 
 .article--img--link:hover {
+  cursor: pointer;
+  transform-style: preserve-3d;
   transform: rotateY(180deg);
   transition: 0.5s;
-  transform-style: preserve-3d;
-  cursor: pointer;
 }
 
 .article--img--link:hover .article--text--right{
@@ -100,8 +100,8 @@ article {
 }
 
 .article--img--h3 {
-  opacity: 1;
   color: #FFFFFF;
+  opacity: 1;
 }
 
 .article--img--overlay {
@@ -109,8 +109,8 @@ article {
 }
 
 .article--img--main {
-  width: 100%;
   opacity: .7;
+  width: 100%;
   z-index: 1;
 }
 
@@ -158,8 +158,8 @@ p {
 
 .section--p--a {
   color: #000000;
-  opacity: 1;
   font-size: 1rem;
+  opacity: 1;
   text-transform: inherit;
 }
 
@@ -321,8 +321,8 @@ ul {
 .menu--a--admin-username {
   margin: 0;
   position: absolute;
-  top: 1rem;
   right: 1.5rem;
+  top: 1rem;
 }
 
 main {
